@@ -53,11 +53,11 @@ const cargarTabla = ()=>{
         for(let j=0;j<horarios.length;++j){
             if (m.horario == horarios[j].tipo){
                 if(parseInt(m.valor) < horarios[j].valorOferta){
-                    icono.classList.add("fas","fa-check-circle","text-success");
+                    icono.classList.add("fas","fa-check-circle","text-success","fa-2x");
                     break
                 }else{
                     console.log("No-desayuno")
-                    icono.classList.add("far","fa-times-circle","text-danger");
+                    icono.classList.add("far","fa-times-circle","text-danger","fa-2x");
                     break
                 }
             }
